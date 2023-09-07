@@ -64,9 +64,9 @@ int main (int argc, char* argv[]) {
     }
 
     //需要修改的数据库信息,登录名,密码,库名
-    string user = "root";
-    string passwd = "root";
-    string databasename = "tinyserverdb";
+    string user = "webserver";
+    string passwd = "123456";
+    string databasename = "tinywebserverdb";
 
     WebServer server;
     // 初始化
